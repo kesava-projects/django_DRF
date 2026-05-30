@@ -10,7 +10,6 @@ SECRET_KEY = 'django-insecure-iwky+iutr@j%z%huxc%6tejz*sf#+ptm_!5i=t1$v@h&+zn8%0
 
 from .userserializer import UserSerializer
 from rest_framework.decorators import api_view
-
 # Create your views here.
 
 def is_authenticated(func):
